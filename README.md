@@ -17,6 +17,8 @@ API curl examples for Puppet enterprise
 
 ## Status of nodes under management:
 
+[Status](./status.md)
+
 ## TODO:
 
 c.       Integration with ServiceNow:
@@ -30,10 +32,12 @@ o   Datetime.
 o   Node name/IP.
 o   Configuration drift details.
 o   Action taken by Puppet (with datetime).
-                                                             ii.      Puppet to provide API for ServiceNow to trigger threat/vulnerability remediation tasks.
+
+ii.      Puppet to provide API for ServiceNow to trigger threat/vulnerability remediation tasks.
 ServiceNow request to specify:
 -          node name/IP.
 -          CVE number of detected threat/vulnerability.
+
 Is there a way to let ServiceNow know the triggered remediation tasks are:
 -          Completed successfully with details.
 -          Failed with details.
