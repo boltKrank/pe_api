@@ -7,7 +7,13 @@ API curl examples for Puppet enterprise
 
 [Configuration drift](./configuration.md)
 
+## Conpliance (CIS):
+
+[Compliance](./copliance.md)
+
 ## Vulnerability remediation via tasks:
+
+[Running tasks](./tasks.md)
 
 ## Status of nodes under management:
 
