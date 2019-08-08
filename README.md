@@ -1,6 +1,41 @@
 # pe_api
 API curl examples for Puppet enterprise
 
+# Use cases:
+
+## Show configuration drift:
+
+[Configuration drift] (./configuration.md)
+
+## Configuration drift remediation:
+
+## Vulnerability remediation via tasks:
+
+## Status of nodes under management:
+
+## TODO:
+
+c.       Integration with ServiceNow:
+ i.      Puppet to provide API for ServiceNow to query/obtain:
+-          Status of all nodes under management.
+o   Datetime.
+o   Each node up and running?
+o   Configuration drift detected (with datetime of detection).
+-          Detected non-compliances in nodes under management.
+o   Datetime.
+o   Node name/IP.
+o   Configuration drift details.
+o   Action taken by Puppet (with datetime).
+                                                             ii.      Puppet to provide API for ServiceNow to trigger threat/vulnerability remediation tasks.
+ServiceNow request to specify:
+-          node name/IP.
+-          CVE number of detected threat/vulnerability.
+Is there a way to let ServiceNow know the triggered remediation tasks are:
+-          Completed successfully with details.
+-          Failed with details.
+
+
+
 # Puppet enterprise APIs:
 
 ## RBAC service API v1
