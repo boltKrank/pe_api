@@ -3,11 +3,9 @@ API curl examples for Puppet enterprise
 
 # Use cases:
 
-## Show configuration drift:
+## Configuration drift:
 
-[Configuration drift] (./configuration.md)
-
-## Configuration drift remediation:
+[Configuration drift](./configuration.md)
 
 ## Vulnerability remediation via tasks:
 
