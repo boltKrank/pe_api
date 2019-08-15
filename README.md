@@ -17,7 +17,7 @@ API curl examples for Puppet enterprise
 
 ## Status of nodes under management:
 
-[Status](./status.md)
+[Status](./status.md  )
 
 ## TODO:
 
